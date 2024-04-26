@@ -2,6 +2,10 @@
 Data Engineering Challenge (PS 2)
 Date:- 26/04/2024
 
+Note:-
+1)bbc_articles csv file can be downloaded from the repo normally.
+2)vectorised_dataset csv file is a large file which has been uploaded using LFS and has to be downloaded in order to view it.
+
 In this project, we structured the BBC article data by creating a CSV file named bbc_articles.csv with the columns article_id, text, and category. We accomplished this by looping through the files in the BBC_articles folder, extracting the relevant information from the filenames and file contents, and creating a DataFrame from the collected data.
 For the data preprocessing and vectorization step, we followed these steps:
 
